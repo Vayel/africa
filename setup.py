@@ -8,8 +8,8 @@ with open('dependency_links.txt') as f:
     links = f.read().strip().split('\n')
 
 setup(
-    name='africa',
-    url='https://github.com/Vayel/africa',
+    name='flask-projectile',
+    url='https://github.com/Vayel/flask-projectile',
     author='Vincent Lefoulon',
     packages=find_packages(),
     include_package_data=True,
