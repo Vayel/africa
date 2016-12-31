@@ -1,5 +1,5 @@
-import africa
+import flask_projectile
 
 
 if __name__ == "__main__":
-    africa.app.run()
+    flask_projectile.app.run()

@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block content %}
+<form action="{{ url_for('projectile.create_project') }}" method="POST">
+    {{ create_form.csrf_token }}
+    {{ create_form.url.label }} : {{ create_form.url }}
+    <input type="submit" value="Créer">
+</form>
+{% endblock %}

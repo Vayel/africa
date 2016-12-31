@@ -1,1 +1,2 @@
 git+https://github.com/Vayel/projectile#egg=projectile
+git+https://github.com/Vayel/javelot#egg=javelot
