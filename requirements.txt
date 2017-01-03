@@ -1,4 +1,1 @@
-Flask
-Flask-WTF
-projectile
-javelot
+-e .
