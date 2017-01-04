@@ -14,7 +14,7 @@ setup(
         'javelot',
     ],
     dependency_links=[
-        'git+https://github.com/Vayel/projectile#egg=projectile',
-        'git+https://github.com/Vayel/javelot#egg=javelot',
+        'git+https://github.com/Vayel/projectile#egg=projectile-1.0.0',
+        'git+https://github.com/Vayel/javelot#egg=javelot-1.0.0',
     ],
 )
